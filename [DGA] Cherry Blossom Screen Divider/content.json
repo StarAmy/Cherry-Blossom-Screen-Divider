@@ -1,0 +1,26 @@
+[
+
+   {
+      "$ItemType": "Furniture",
+      "ID": "Cherry Blossom Screen Divider",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/screen.png",
+            "DisplaySize": { "X": 4, "Y": 3 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 500,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.cherryscreen/Cherry Blossom Screen Divider"
+      }
+   },
+]
